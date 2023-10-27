@@ -1,0 +1,171 @@
+{
+  "id": "30df30a5-1247-4225-8e82-8677c82f146a",
+  "version": "2.0",
+  "name": "testekabum1",
+  "url": "https://www.kabum.com.br",
+  "tests": [{
+    "id": "acb09b98-41cf-4504-af7f-174419293e6a",
+    "name": "teste1",
+    "commands": [{
+      "id": "ca944251-c345-4f89-8a33-77b5da0e6484",
+      "comment": "",
+      "command": "open",
+      "target": "/?gclid=EAIaIQobChMIgvXRk4-WggMV4lVIAB1XxQKPEAAYASAAEgJTxfD_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fcb38f6-8fb9-47a0-a800-0cf1f5b73e4d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdb2d86e-3aea-41f1-8c82-d75e6153da2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-busca",
+      "targets": [
+        ["id=input-busca", "id"],
+        ["name=query", "name"],
+        ["css=#input-busca", "css:finder"],
+        ["xpath=//input[@id='input-busca']", "xpath:attributes"],
+        ["xpath=//div[@id='barraBuscaKabum']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19d82c59-cd1e-4a44-ac7f-d837262ee2e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-busca",
+      "targets": [
+        ["id=input-busca", "id"],
+        ["name=query", "name"],
+        ["css=#input-busca", "css:finder"],
+        ["xpath=//input[@id='input-busca']", "xpath:attributes"],
+        ["xpath=//div[@id='barraBuscaKabum']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "computador"
+    }, {
+      "id": "36a0197b-b711-4f88-8bdc-333aeeb4d857",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=input-busca",
+      "targets": [
+        ["id=input-busca", "id"],
+        ["name=query", "name"],
+        ["css=#input-busca", "css:finder"],
+        ["xpath=//input[@id='input-busca']", "xpath:attributes"],
+        ["xpath=//div[@id='barraBuscaKabum']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5d0b32bc-d83f-4764-a16f-f407fc17d997",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-c557b6f4-0:nth-child(3) .filterOption:nth-child(3)",
+      "targets": [
+        ["css=.sc-c557b6f4-0:nth-child(3) .filterOption:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='asideFilters']/div[2]/details[3]/div/label[3]", "xpath:idRelative"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'Openbox')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ddf3025-e358-40b7-a95c-84a8926be571",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-c557b6f4-0:nth-child(3) .filterOption:nth-child(3) > .sc-c557b6f4-3",
+      "targets": [
+        ["css=.sc-c557b6f4-0:nth-child(3) .filterOption:nth-child(3) > .sc-c557b6f4-3", "css:finder"],
+        ["xpath=//input[@value='has_open_box']", "xpath:attributes"],
+        ["xpath=//div[@id='asideFilters']/div[2]/details[3]/div/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0c45773-f357-4912-889c-d66d36275afb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-93fa31de-7:nth-child(3) .sc-93fa31de-11",
+      "targets": [
+        ["css=.sc-93fa31de-7:nth-child(3) .sc-93fa31de-11", "css:finder"],
+        ["xpath=//div[@id='listing']/div[3]/div/div/div[2]/div/main/div[3]/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44272489-63dd-4469-9099-8d60e3c1bb09",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-93fa31de-7:nth-child(3) .sc-93fa31de-11",
+      "targets": [
+        ["css=.sc-93fa31de-7:nth-child(3) .sc-93fa31de-11", "css:finder"],
+        ["xpath=//div[@id='listing']/div[3]/div/div/div[2]/div/main/div[3]/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82d548aa-0031-4c15-84e6-c28f5a7c9dd2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-93fa31de-7:nth-child(3) .imageCard",
+      "targets": [
+        ["css=.sc-93fa31de-7:nth-child(3) .imageCard", "css:finder"],
+        ["xpath=//img[@alt='Computador Concórdia, Intel Celeron J4005   Experiência e Qualidade que você procurava Acompanhado com Windows 10 Pro Original, aproveite todos os rec']", "xpath:img"],
+        ["xpath=//div[@id='listing']/div[3]/div/div/div[2]/div/main/div[3]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03d766d0-e700-41e4-a428-21e987f44f9b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-93fa31de-7:nth-child(3) .imageCard",
+      "targets": [
+        ["css=.sc-93fa31de-7:nth-child(3) .imageCard", "css:finder"],
+        ["xpath=//img[@alt='Computador Concórdia, Intel Celeron J4005   Experiência e Qualidade que você procurava Acompanhado com Windows 10 Pro Original, aproveite todos os rec']", "xpath:img"],
+        ["xpath=//div[@id='listing']/div[3]/div/div/div[2]/div/main/div[3]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "128e30ac-02fc-4e01-a971-965d1a321d5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-93fa31de-7:nth-child(15) .imageCard",
+      "targets": [
+        ["css=.sc-93fa31de-7:nth-child(15) .imageCard", "css:finder"],
+        ["xpath=//img[@alt='Computador Skul B500 Hexa, Intel Core i5-10400, 8GB DDR4, SSD 240GB, 300W, Windows 11 Home, Preto   Processador Intel de décima geração Excelente Setu']", "xpath:img"],
+        ["xpath=//div[@id='listing']/div[3]/div/div/div[2]/div/main/div[15]/a/img", "xpath:idRelative"],
+        ["xpath=//div[15]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81b73566-4b61-4fad-a812-f06203b1b448",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-4f698d6c-1",
+      "targets": [
+        ["css=.sc-4f698d6c-1", "css:finder"],
+        ["xpath=//div[@id='blocoValores']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver mais opções de pagamento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "47a2fd9e-6aec-4b4e-9bd2-03eac9bf3d85",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["acb09b98-41cf-4504-af7f-174419293e6a"]
+  }],
+  "urls": ["https://www.kabum.com.br/"],
+  "plugins": []
+}
